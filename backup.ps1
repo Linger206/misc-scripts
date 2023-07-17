@@ -1,4 +1,5 @@
 # 备份特定文件夹为压缩文件(保留近5日的备份文件), 然后打开特定网页并运行特定程序
+# PowerShell v6 以下版本若路径包含中文, 需将此脚本保存为 UTF-8 BOM 格式
 
 # 获取当前日期
 $today = Get-Date -Format "yyyyMMdd"
